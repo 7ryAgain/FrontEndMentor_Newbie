@@ -1,0 +1,80 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: url(images/bg-pattern-top.svg);
+  background-color: darkcyan;
+  display: grid;
+  grid-template-columns: 37% 127px 100px 127px 37%;
+  grid-template-rows: 90px 50px 50px 202px 20%;
+  margin-top: 10%;
+}
+
+.card.a {
+  background-image: url(images/bg-pattern-card.svg);
+  background-color: aqua;
+  background-position: center;
+  background-repeat: repeat;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 140px;
+  border-radius: 22px 22px 0px 0px;
+}
+
+.foto {
+  background-image: url(images/image-victor.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  z-index: 2;
+  border-radius: 100px;
+  border: white 4px solid;
+}
+
+.card.b {
+  background-color: white;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  border-radius: 0px 0px 22px 22px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.datos.a {
+  display: flex;
+    flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1{
+  font-size: 7px;
+}
+
+section {
+}
+
+.attribution {
+  margin-top: 30%;
+  font-size: 11px;
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
