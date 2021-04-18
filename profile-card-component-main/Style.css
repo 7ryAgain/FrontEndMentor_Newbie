@@ -1,6 +1,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  font-family: Kumbh Sans;
 }
 
 body {
@@ -46,23 +47,65 @@ body {
   grid-row-end: 5;
   border-radius: 0px 0px 22px 22px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
 }
 
 .datos.a {
   display: flex;
-    flex-flow: row nowrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
 }
 
-h1{
-  font-size: 7px;
+section {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 25%;
+  right: 12%;
 }
 
-section {
+article {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0% 40% 0% 0%;
+}
+
+h1 {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  color: gray;
+}
+
+.pais {
+  color: gray;
+  font-size: 12px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  color: gray;
+  font-size: 12px;
 }
 
 .attribution {
