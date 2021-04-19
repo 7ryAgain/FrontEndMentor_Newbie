@@ -7,6 +7,7 @@
 body {
   background-image: url(images/bg-pattern-top.svg);
   background-color: darkcyan;
+  background-position: 150% 110%;
   display: grid;
   grid-template-columns: 37% 127px 100px 127px 37%;
   grid-template-rows: 90px 50px 50px 202px 20%;
@@ -69,11 +70,12 @@ header {
 section {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   position: relative;
-  top: 25%;
-  right: 12%;
+  top: 15%;
+  border-top: solid rgb(169, 169, 169, 0.5) 1px;
+  width: 100%;
 }
 
 article {
@@ -81,7 +83,7 @@ article {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  margin: 0% 40% 0% 0%;
+  margin: 8% 0% 0% 0%;
 }
 
 h1 {
@@ -96,7 +98,8 @@ h2 {
 
 .pais {
   color: gray;
-  font-size: 12px;
+  font-size: 17px;
+  margin-top: 10%;
 }
 
 h3 {
